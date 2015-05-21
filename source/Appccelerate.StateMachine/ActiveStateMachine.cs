@@ -78,6 +78,7 @@ namespace Appccelerate.StateMachine
                 factory);
 
             this.queue = new LinkedList<EventInformation<TEvent>>();
+
         }
 
         /// <summary>
